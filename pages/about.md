@@ -6,7 +6,7 @@ feature-img: "assets/img/pexels/computer.jpeg"
 tags: [about, me]
 ---
 
-2006년생, 파이썬 개발자
+<style="text-align: center;">2006년생, 파이썬 개발자</style>
 
 
  
