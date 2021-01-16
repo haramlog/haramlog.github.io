@@ -54,6 +54,7 @@
     display: inline-block;
     background-size: $feature-image-size;
     border-bottom: 1px solid $border-color;
+    text-align: center;
 
     p a {
       @extend .body-link;
