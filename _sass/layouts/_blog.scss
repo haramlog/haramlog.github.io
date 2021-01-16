@@ -53,7 +53,7 @@ body {
 .posts {
   .post-teaser {
     @extend %padding-post;
-    width: 76%;
+    width: 60%;
     margin-top: 0.75em;
     display: inline-block;
     background-size: $feature-image-size;
@@ -62,8 +62,8 @@ body {
     padding-bottom: 3em;
     padding-top: 3em;
     text-align: center;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 20%;
+    margin-right: 20%;
 
     .excerpt {
       text-align: left;
