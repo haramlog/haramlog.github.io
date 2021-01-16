@@ -10,7 +10,7 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 
 # Header and footer text
 header_text: Haram_log of leeharam # Change Blog header text
-header_feature_image: assets/img/pexels/grays.jpeg
+header_feature_image: assets/img/pexels/mint.jpeg
 footer_text: >
   개발자&nbsp; <strong>이하람<strong><br>경로&nbsp; <strong>haramlog.github.io</strong><br><br>CC BY-NC-SA 2.0 KR<br>All of posts which in this site can't use to profit.<br>Copyright © leeeharam All rights reserved.
 
