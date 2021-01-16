@@ -1,7 +1,13 @@
+@font-face { font-family: 'NanumBarunGothic';
+    src: url('/fonts/NanumBarunGothic.eot');
+    src: url('/fonts/NanumBarunGothic.eot') format('embedded-opentype'),
+    url('/fonts/NanumBarunGothic.woff') format('woff');
+}
+    
 // Typography
-$font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-family-logo: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-family-main: 'NanumBarunGothic', 'serif';
+$font-family-headings: 'NanumBarunGothic', 'serif';
+$font-family-logo: 'NanumBarunGothic', 'serif';
 $font-size: 1.25em;
 
 // Padding
