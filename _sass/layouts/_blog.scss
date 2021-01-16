@@ -50,14 +50,14 @@
   .post-teaser {
     @extend %padding-post;
     width: 100%;
-    margin-bottom: 20em;
+    margin-bottom: 3em;
     display: inline-block;
     background-size: $feature-image-size;
     border: 1px solid $border-color;
-    border-radius: 10%;
+    border-radius: 2em 2em 2em 2em;
     text-align: center;
-    margin-left: 10%;
-    margin-left: 10%;
+    margin-left: 5em;
+    margin-right: 5em;
     
     .excerpt {
       text-align: left;
