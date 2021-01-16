@@ -45,11 +45,15 @@
   background-position: 100% -50px, 0 center, center top;
 }
 
+body {
+  background-color: rgb(132, 205, 186)
+}
+
 /* --- Post listing --- */
 .posts {
   .post-teaser {
     @extend %padding-post;
-    width: 96%;
+    width: 70%;
     margin-top: 0.75em;
     display: inline-block;
     background-size: $feature-image-size;
@@ -58,8 +62,8 @@
     padding-bottom: 3em;
     padding-top: 3em;
     text-align: center;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
 
     .excerpt {
       text-align: left;
@@ -109,5 +113,29 @@
 
   .excerpt {
     margin-top: 1em;
+  }
+}
+
+@media(max-width:1000px) {
+  .post-teaser {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media(max-width:800px) {
+  .post-teaser {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
+@media(max-width:600px) {
+  .post-teaser {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
