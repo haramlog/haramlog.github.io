@@ -49,15 +49,15 @@
 .posts {
   .post-teaser {
     @extend %padding-post;
-    width: 86%;
+    width: 96%;
     margin-top: 2em;
     display: inline-block;
     background-size: $feature-image-size;
     border: 1px solid $border-color;
     border-radius: 2em 2em 2em 2em;
     text-align: center;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 2%;
+    margin-right: 2%;
 
     .excerpt {
       text-align: left;
@@ -71,10 +71,6 @@
       vertical-align: middle;
       border-radius: 10px;
       overflow: hidden;
-
-      @media (min-width: $break) {
-        height: 250px;
-      }
 
       //Smaller screen
       @media screen and (max-width: $break) {
