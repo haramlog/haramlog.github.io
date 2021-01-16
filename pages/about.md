@@ -7,12 +7,8 @@ tags: [about, me]
 ---
 
 ### 2006년생
-### 파이썬, iOS 개발자
-```
-fun main() {
-    println("Hello world!")
-}
-```
+## 프론트엔드, iOS 개발자
+## C, C++, Python, Kotlin, Java, Javascript
 
 
  
