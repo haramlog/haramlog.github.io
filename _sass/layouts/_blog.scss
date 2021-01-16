@@ -50,7 +50,7 @@
   .post-teaser {
     @extend %padding-post;
     width: 96%;
-    margin-top: 2em;
+    margin-top: 0.75em;
     display: inline-block;
     background-size: $feature-image-size;
     border: 1px solid $border-color;
