@@ -55,8 +55,8 @@ body {
     @extend %padding-post;
     width: 64%;
     margin-top: 0.75em;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     background-size: $feature-image-size;
     border: 1px solid $border-color;
@@ -65,7 +65,18 @@ body {
     padding-top: 3em;
     text-align: center;
     margin-left: 18%;
-    margin-right: 18ㅎ%;
+    margin-right: 18%;
+
+    @media screen and (max-width: 950px) {
+      width: 82%;
+      margin-left: 9%;
+      margin-right: 9%;
+    }
+    @media screen and (max-width: 800px) {
+      width: 96%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
 
     .excerpt {
       text-align: left;
