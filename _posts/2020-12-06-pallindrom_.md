@@ -11,7 +11,7 @@ color: rgb(132, 205, 186)
 밑 문단들은 임의의 입력이 주어졌을 때 그 입력이 팰린드롬인지 아닌지 구분하여 False 또는 True로 리턴하는 `solution` 함수이다.
 
 ## 2. 팰린드롬 - list로 풀기
-```
+```python
 def solution():
     ins = input()
     str_list = []
@@ -32,7 +32,7 @@ def solution():
 입력을 받은 만큼 반복문을 실행한다. 숫자와 영어가 아닌 입력값은 `append` 해주지 않는다. 추가할 때는 모두 소문자로 바꿔서 추가한다. `str_list`가 1보다 크면 리스트의 시작부분, 리스트의 끝부분부터 차례차례 `pop`을 해줘서 양쪽의 값이 같으면 `True`를 리턴하고, 하나라도 다른 결과가 나오면 `False`를 리턴한다.
 
 ## 3. 팰린드롬 - Deque로 풀기
-```
+```python
 import collections
 
 def solution():
