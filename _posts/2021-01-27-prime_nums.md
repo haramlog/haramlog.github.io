@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 백준 2960 / 에라토스테네스의 체
+title: 백준 1978 / 소수 찾기
 tags: [algorithm, BOJ]
 color: rgb(132, 205, 186)
 ---
@@ -19,8 +19,56 @@ color: rgb(132, 205, 186)
 ```
 N을 입력받은 뒤 이 과정을 거치면 소수를 구할 수 있다.
 
-## 백준 2960
+## 백준 1978
+```Python
+import sys
 
+N = int(sys.stdin.readline())
+Ns = list(map(int, sys.stdin.readline().split()))
+Ns.sort()
+prime = []
+
+try:
+    Ns.remove(1)
+    Ns.remove(N)
+except ValueError:
+    pass
+
+while True:
+    delete_Num = Ns[0]
+    check = Ns[0]
+
+    prime.append(check)
+
+    for i in range(len(Ns)):
+        try:
+            Ns.remove(delete_Num)
+        except ValueError:
+            pass
+
+        delete_Num += check
+
+        if delete_Num >= N:
+            break
+            # 완성
+
+    if len(Ns) == 0:
+        break
+
+print(len(prime))
+```
+에라토스테네스의 체를 이용해 주어진 수 중 소수의 개수를 출력하는 코드다.
+
+```python
+try:
+    Ns.remove(1)
+    Ns.remove(N)
+except ValueError:
+    pass
+```
+일단 시작 전 1과 N을 리스트에서 제거해주고, 만약 그 수가 리스트에 포함되어 있지 않다면 ValueError를 일으킬테니 그런 경우는 그냥 pass하도록 만든다. **그런데 시간복잡도가... 시간이 말도 안되게 많이 나와서 통과는 되지 않는다.** 반례를 포함한 모든 값이 통과되니 일단은 반쯤 푼 셈 치자.
+
+나중에 시간 안에 풀게 되면 다시 수정하겠다.
 
 
 
